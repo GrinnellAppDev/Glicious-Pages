@@ -11,7 +11,7 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <style>
-    img.center { display: block; margin-left: auto; margin-right: auto; }
+    .center { display: block; margin-left: auto; margin-right: auto; text-align: center;}
     .shadow {
       -moz-box-shadow: 10px 10px 5px #888;
       -webkit-box-shadow: 10px 10px 5px #888;
@@ -54,7 +54,31 @@
       -ms-transform:rotate(2deg);
       -o-transform:rotate(2deg);
     }
+    img.store {
+      width: 172px;
+    }
 
+    #wp {
+      vertical-align: top;
+      margin-left: 4px;
+      margin-top: 4px;
+    }
+
+    #and {
+      vertical-align: top;
+      margin-top: 1px;
+
+    }
+
+    #ios {
+      vertical-align: top;
+      padding-top: 0px;
+
+    }
+    .mbutton {
+      display: inline;
+      vertical-align: top;
+    }
     </style>
 
     <link href="favicon.png" rel="icon" type="image/png"> 
@@ -72,10 +96,24 @@
           <h2>Full-fledged personal dining assistant -- Grinnell Dining.</h2>
         </header>
 
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/GrinnellAppDev/Glicious-Pages/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="https://github.com/GrinnellAppDev/Glicious-Pages/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-          <a href="https://github.com/GrinnellAppDev/Glicious-Pages" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        <section id="downloads" class="clearfix center">
+          <div class="center">
+          <div class="mbutton" >
+            <a href="https://itunes.apple.com/us/app/g-licious/id523738999?mt=8">
+              <img id="ios" class="store" alt="iOS app on the AppStore" src="images/app_store_badge_en.png" />
+            </a>
+          </div>
+          <div class="mbutton">
+            <a href="http://play.google.com/store/apps/details?id=edu.grinnell.glicious">
+              <img id="and" alt="Android app on Google Play" src="http://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
+            </a>
+          </div>
+          <div class="mbutton">
+            <a href="http://www.windowsphone.com/en-us/store/app/glicious/47c4271a-6367-481f-829a-03cf586cf56c">
+              <img id="wp" class="store" alt="WP app on Windows Store" src="images/WindowsPhone_208x67_blk.png">
+            </a>
+          </div>
+        </div>
         </section>
 
         <hr>
