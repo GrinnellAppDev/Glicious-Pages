@@ -3,6 +3,8 @@ Glicious-Pages
 
 Static informational pages for the G-licoius apps.
 
+#### [http://apps.g-licio.us](http://apps.g-licio.us)
+
 ###About
 
 G-licious is a quick and easy way to check the Dining Menu in the Grinnell Dining Hall. You can check the menu for today, tomorrow, or any day in the next week as and when a new menu becomes available. G-licious also provides serving and nutritional information.  G-licoius is fully supported on iOS, Android, and Windows Phone and is optimized for both phone and tablet layouts.
