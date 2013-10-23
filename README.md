@@ -32,13 +32,13 @@ The app will only allow you to select the dates on which a menu is available on 
 ###Contributors
 
 Special Thanks to the Grinnell Appdev Team!
-*David Cowden '13 (founder, co-manager)*
-*Ellen Finnegan' 13*
-*Maijid Moujaled '14 (co-manager)*
-*Colin Tremblay '14*
-*Lea Marolt Sonnenschein '14*
-*Travis Law '15*
-*Spencer Liberto '15*
+* David Cowden '13 (founder, co-manager)
+* Ellen Finnegan' 13
+* Maijid Moujaled '14 (co-manager)
+* Colin Tremblay '14
+* Lea Marolt Sonnenschein '14
+* Travis Law '15
+* Spencer Liberto '15
 
 For App Support, feedback, suggestions etc. please email appdev@grinnell.edu
 
